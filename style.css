@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-size: initial;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(173, 173, 17, 0.212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 205px;
+    background-image: linear-gradient(to bottom, #40A84E, #19411e);
+}
+
+header > div{
+    color: white;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+#titulo{
+    padding: 40px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu{
+    text-overflow: clip;
+    margin-left: 10px;
+    margin-top: 43.5px;
+}
+
+#menu a{
+    margin-right: 15px;
+    color: #c3dbc7;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#menu a:hover{
+    background-color: #0cbb23;
+    border-radius: 4px;
+    color: #165C1F;
+}
+
+main{
+    width: 80%;
+    display: center;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+
+#titulo-materia{
+    padding: 20px;
+    font-family: idroid, sans-serif;
+    color: #165C1F;
+    letter-spacing: 3px;
+}
+
+section > p{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    text-indent: 20px;
+}
+
+h2 {
+    margin-left: 15px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #53DB65, white);
+    color: #235C2A;
+}
+
+aside{
+    background-color: #53DB65;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+aside div#subtitulo2{
+    padding: 10px;
+    background-color: #235C2A;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: 600;
+}
+
+aside p{
+    padding: 10px;
+    text-indent: 3px;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+    height: 150px;
+    display: inline-block;
+}
+
+li::before{
+    content: '✔ ';
+}
+
+#text-footer{
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    background-color: #235C2A;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width:538px) {
+    #menu{
+        margin: -6px 0px 0px 10px;
+    }
+
+    #menu a{
+        padding: 12px;
+    }
+
+    main{
+        width: 100%;
+    }
+}
